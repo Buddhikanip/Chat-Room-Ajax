@@ -206,3 +206,7 @@ body{
     font-size: 12px;
     color: #468669;
 }
+/* We use  this class name in php to show oddline status */
+.users-list a .status-dot.offline{
+    color: #ccc;
+}
