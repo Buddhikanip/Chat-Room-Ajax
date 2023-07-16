@@ -12,23 +12,24 @@
         <section class="form signup">
             <header>Realtime Chat App</header>
             <form action="#">
-                <div class="error-txt">This is an error message!</div>
+                <div class="error-txt"></div>
                 <div class="field input">
-                    <label for="">Email Address</label>
-                    <input type="text" placeholder="Enter your email">
+                    <label for="email">Email Address</label>
+                    <input type="text" name="email" placeholder="Enter your email">
                 </div>
                 <div class="field input">
-                    <label for="">Password</label>
-                    <input type="password" placeholder="Enter your password">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" placeholder="Enter your password">
                     <i class="fas fa-eye"></i>
                 </div>
                 <div class="field button">
                     <input type="submit" value="Continue to chat">
                 </div>
-                <div class="link">Not yet signed up? <a href="#">Signup now</a></div>
+                <div class="link">Not yet signed up? <a href="index.php">Signup now</a></div>
             </form>
         </section>
     </div>
     <script src="javascript/pass-show-hide.js"></script>
+    <script src="javascript/login.js"></script>
 </body>
 </html>
