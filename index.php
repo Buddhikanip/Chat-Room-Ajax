@@ -1,4 +1,10 @@
-<?php require_once "header.php"; ?>
+<?php 
+    session_start();
+    if(isset($_SESSION['unique_id'])){
+        header("Location: users.php");
+    }
+    require_once "header.php"; 
+?>
 <body>
     <div class="wrapper">
         <section class="form signup">
